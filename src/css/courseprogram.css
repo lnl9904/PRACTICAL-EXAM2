@@ -1,0 +1,63 @@
+.course-program {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.course-program h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #ff5722;
+  text-transform: uppercase;
+}
+
+.subject-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.subject-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+.subject-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.subject-card span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.course-description p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+.subject-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* Bo tròn ảnh */
+  border: 2px solid #ddd; /* Viền nhẹ cho ảnh */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.subject-card img:hover {
+  transform: scale(1.05); /* Hiệu ứng phóng nhẹ khi hover */
+}

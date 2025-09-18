@@ -1,0 +1,16 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: white; /* hoặc màu nền tùy bạn */
+  text-align: center;
+}
+
+.banner img {
+  max-width: 100%;
+  width: 800px; /* hoặc 100% nếu bạn muốn responsive */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff9800; /* màu cam */
+  display: flex;
+  align-items: center;
+}
+
+.logo::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ffeb3b; /* biểu tượng màu vàng */
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff5722;
+}
+
+.auth {
+  display: flex;
+  gap: 10px;
+}
+
+.auth button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.auth button:first-child {
+  background-color: #ff5722;
+  color: white;
+}
+
+.auth button.signup {
+  background-color: white;
+  color: #2196f3;
+  border: 2px solid #2196f3;
+}
