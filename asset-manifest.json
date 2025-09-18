@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PRACTICAL-EXAM2/pereactjs/static/css/main.e71c50c9.css",
+    "main.js": "/PRACTICAL-EXAM2/pereactjs/static/js/main.3a812f7b.js",
+    "static/js/453.d95e185f.chunk.js": "/PRACTICAL-EXAM2/pereactjs/static/js/453.d95e185f.chunk.js",
+    "index.html": "/PRACTICAL-EXAM2/pereactjs/index.html",
+    "main.e71c50c9.css.map": "/PRACTICAL-EXAM2/pereactjs/static/css/main.e71c50c9.css.map",
+    "main.3a812f7b.js.map": "/PRACTICAL-EXAM2/pereactjs/static/js/main.3a812f7b.js.map",
+    "453.d95e185f.chunk.js.map": "/PRACTICAL-EXAM2/pereactjs/static/js/453.d95e185f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e71c50c9.css",
+    "static/js/main.3a812f7b.js"
+  ]
+}
